@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Ascent Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+      
+    <section>
+        <div class="row">
+            <div class="col-md-5">
+                
+                <div class="AscentBackground">
+                    
+                    <div class="AscentBackgroundInside">
+                        <img src="img/ascent-logo.png">
+                        <h3>Ascent.</h3>
+                    </div>
+                    
+                    <div class="AscentBackgroundInside">
+                        <h2>This is an Adaptive Platform for the Evolving Global Asset Finance & Leasing Industry</h2>
+                    </div>
+                    
+                    <div class="AscentBackgroundImageInside">
+                        <div class="AscentInsideImage">
+                            <img src="img/login-bg.png" width="700">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="col-md-7">
+                
+                <div class="AscentFormInside">
+
+                    <h3>Sign in to <br/> Ascent 2.5</h3>
+                    
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">中国人</a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content">
+                        
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            
+                            <form method="GET" class="TextForm" name="myForm" id="myForm">
+
+                                <div class="form-group" >
+
+                                    <label for="email" for="userName" id="userName_error" class="val_errors">Username</label>
+                                
+                                    <input class="form-control" id="email" type="text" id="userName" name="userName" autocomplete="off"> <!-- class="textInput"-->
+                                
+                                </div>
+                                
+                                <div class="form-group">
+                                
+                                    <label for="password" id="password_error" class="val_errors">Password</label>
+                                
+                                    <input class="form-control" type="password" id="password" name="password" autocomplete="off"> <!-- class="textInput"-->
+                                
+                                </div>
+                                
+                                <div class="ForgotPassword">
+                                            
+                                    <div class="FormForgotPassword">
+                                        
+                                        <img src="img/forgot-pass-icon.png">
+                                    
+                                        <a href="#" id="forgot">Forget Password?</a>
+                        
+                                    </div>
+                                        
+                                </div>
+                                
+                                <button type="submit" id="SignUpButton" onclick="return validateForm()">English</button>
+
+                            </form>
+                        
+                        </div>
+                        
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+
+                            <form method="GET" class="TextForm" name="ChineseForm" id="ChineseForm">
+                                
+                                <div class="form-group">
+                                
+                                    <label for="email" for="userNameChinese" id="userNameChinese_error" class="val_errors">用户名</label>
+                                
+                                    <input class="form-control" id="email" type="text" id="userNameChinese" name="userNameChinese" autocomplete="off"> <!-- class="textInput"-->
+                                
+                                </div>
+                                
+                                <div class="form-group">
+                                
+                                    <label for="passwordChinese" id="passwordChinese_error" class="val_errors">用户名</label>
+                                
+                                    <input class="form-control" type="password" id="passwordChinese" name="passwordChinese" class="textInput" autocomplete="off"> <!-- class="textInput"-->
+                                
+                                </div>
+                                
+                                <div class="ForgotPassword">
+                                            
+                                    <div class="FormForgotPassword">
+                                        
+                                        <img src="img/forgot-pass-icon.png">
+                                    
+                                        <a href="#" id="forgot">忘记密码?</a>
+                        
+                                    </div>
+                                        
+                                </div>
+                                
+                                <button type="submit" id="SignUpButton" onclick="return validateFormChinese()">登录</button>
+
+                            </form>
+
+                        </div>
+                    
+                    </div>
+        
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+        
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
